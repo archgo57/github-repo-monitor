@@ -1,0 +1,26 @@
+{
+    "name": "github-repo-monitor",
+    "version": "1.0.0",
+    "description": "A bot that notifies users of updates in a GitHub repository.",
+    "main": "src/bot.ts",
+    "scripts": {
+        "start": "ts-node src/bot.ts",
+        "build": "tsc",
+        "test": "npx mocha"
+    },
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "node-fetch": "^2.7.0",
+        "node-notifier": "^10.0.1"
+    },
+    "devDependencies": {
+        "@types/node-fetch": "^2.6.12",
+        "@types/node-notifier": "^8.0.5",
+        "chai": "^4.3.4",
+        "mocha": "^11.1.0",
+        "ts-node": "^10.9.2",
+        "typescript": "^4.9.5"
+    },
+    "author": "Your Name",
+    "license": "MIT"
+}

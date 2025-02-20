@@ -1,0 +1,5 @@
+// filepath: /github-repo-monitor/.mocharc.json
+{
+  "require": "ts-node/register",
+  "spec": "test/**/*.test.ts"
+}
